@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.navbar-nav {
+    margin-right: auto;
+    float: right;
+}
+
+.header{
+    background-color:turquoise;
+}
+
+.navbar{
+    padding-top: 20px;
+}
+
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    color:solid 2px white ;
+    font-size: 19px;
+    padding:  1px ;
+    /* display: 0; */
+}
+
+.navbar-brand img{
+    width: 125px;
+}
+
+.fa-bars{
+    color: white solid 1px;
+    font-size: 40px;
+}
+
+.navbar-toggler{
+    border: 0;
+    overflow: none;
+    padding: initial;
+}
+
+.active-home{
+  border-bottom: white solid 2px;
+}
+
+.nav-link:hover{
+    border-bottom: white 2px solid;
+}
+
+.banner{
+margin-top: 8%;
+color: white;
+}
+
+.banner h1{
+    margin-bottom:80px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+/* .banner img{
+    max-height: 500px;
+} */
+
+.express-btn  {
+padding: 12px;
+width: 150px;
+display: inline-block;
+background: rgb(129, 56, 247);
+text-decoration: none;
+color: white;
+border: 2px solid white;
+border-radius: 5px solid;
+text-align: center;
+margin-top: 30px;
+font-size: 14px;
+
+}
+
+.express-btn:hover{
+    background-color:  white ; 
+}
+
+.services{
+    margin: 75px 0;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+.service-box img{
+    width: 80px;
+    height: 100px;
+    /* margin-top: 65px;
+    margin-bottom:50px ; */
+}
+
+.service-box h6{
+   font-weight: bold;
+    margin-bottom:40px ;
+}
+
+.service-box p{
+    font-size: 15px;
+    color: rgb(126, 55, 55);
+    /* font-weight: bold; */
+}
+
+.fa-arrow-right{
+    font-size: 18px;
+    /* margin-top: 30px;
+    margin-bottom: 35px; */
+    cursor: pointer;
+}
+
+.service-box:hover,.active-service{
+   background-color: thistle; 
+   border-radius: 5px;
+   color: white;
+}
+
+.service-box:hover p{
+    color: white; 
+ }
+
+ .active-service p{
+color: white;
+ }
+
+ .feature{
+margin: 80px 0;
+ }
+
+ .feature iframe,.explore img{
+     max-width: 77%;
+     cursor:pointer;
+     height: 100%;
+ } 
+
+ .feature h2,.explore h2{
+     margin-top :15px; ;
+font-weight: bold;
+line-height:35px ; 
+ }
+
+ .feature p,.explore p{
+    margin-top :15px; ;
+font-weight: bold;
+color: darkmagenta;
+font-size: 14px;
+line-height:35px ; 
+}
+
+.feature a,.explore a{
+margin-top :15px; 
+padding: 10px 7px;
+display: block;
+background-color: cornflowerblue;
+color: white;
+text-decoration: none;
+border-radius: 2px;
+text-align: center;
+font-weight: bold;
+font-size: 14px;
+}
+
+.explore a{
+margin-bottom :15px; 
+} 
+
+.review{
+    margin: 100px 0;
+}
+
+.carousel-item img{
+    width:150px ;
+    border-radius: 50%;
+}
+
+.carousel-item{
+text-align: center;
+height: 450px;
+}
+
+.carousel-caption{
+z-index: -1;
+border-radius: 5px;
+margin-bottom: 50px;
+}
+
+.carousel-caption h6{
+margin-top: 55px; 
+font-weight: bold;
+color: black;
+box-shadow: rgb(241, 166, 45) 0px 0px 80px 1px;
+padding: 10px;
+}
+
+.carousel-caption small{
+margin-top: 10px; 
+margin-bottom: 50px;
+display: block;
+color: black;
+}
+
+.carousel-caption p{
+text-align: center;
+padding: 1px;
+font-size: 15px;
+color:rgb(4, 45, 70);
+}
+
+.carousel-indicators{
+background-color:navy ;
+}
+
+@media only screen and (max-width:800px) {
+    .carousel-item{
+        height: 520px;
+        }
+        .carousel-caption{
+            margin: 0 10px 50px 10px;
+            left: 0;
+            right: 0;
+        }   
+}
+
+.footer{
+    background-color: turquoise;
+    padding-top: 5px;
+}
+
+.footer h2{
+color:white;
+font-weight: 600px;
+margin: 70px 0;
+}
+
+.footer input{
+width: 60%;
+background-color: transparent;
+outline: none;
+border: 0;
+border-bottom: 1px solid white;
+padding: 10px;
+color: white;
+margin-bottom: 30px;
+text-align: center;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 13px ;
+}
+
+.footer button{
+padding: 6px;
+width: 180px;
+margin:auto ;
+display: block;
+color: white;
+border: 1px solid white;
+font-size: 20px;
+background-color: transparent;
+}
+
+.footer small{
+    font-size: 14px;
+    padding: 70px;
+    padding-bottom: 20px;
+    color: white;
+    display: block;
+}
+
